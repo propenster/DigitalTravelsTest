@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.exe
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.deps.json
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.runtimeconfig.json
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.runtimeconfig.dev.json
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.dll
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\bin\Debug\netcoreapp3.1\MyAlgorithms.pdb
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.csprojAssemblyReference.cache
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.AssemblyInfo.cs
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.dll
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.pdb
+C:\Users\User\source\repos\MyAlgorithms\MyAlgorithms\obj\Debug\netcoreapp3.1\MyAlgorithms.genruntimeconfig.cache

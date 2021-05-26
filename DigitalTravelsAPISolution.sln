@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBAInterviewPrepAPI", "UBAInterviewPrepAPI\UBAInterviewPrepAPI.csproj", "{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3188827E-849C-46A3-9926-BD95886089C1}
+	EndGlobalSection
+EndGlobal
