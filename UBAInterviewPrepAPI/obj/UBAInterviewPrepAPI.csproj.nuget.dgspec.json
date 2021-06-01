@@ -1,17 +1,234 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\MyAlgorithms\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {}
+    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\MyAlgorithms\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {
+    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyAlgorithms\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
-        "projectName": "UBAInterviewPrepAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyAlgorithms\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
+        "projectName": "UBAInterviewPrepAPI.DAL",
+        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyAlgorithms\\UBAInterviewPrepAPI\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj",
+        "projectName": "UBAInterviewPrepAPI.Domain",
+        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
+        "projectName": "UBAInterviewPrepAPI.Services",
+        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+        "projectName": "UBAInterviewPrepAPI",
+        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,7 +246,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              },
+              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.deps.json
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.dll
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.pdb
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.dll
+C:\Users\User\source\repos\MyAlgorithms\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.pdb
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.deps.json
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.pdb
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.csprojAssemblyReference.cache
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.Domain\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.pdb

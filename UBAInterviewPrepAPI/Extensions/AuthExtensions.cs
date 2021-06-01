@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UBAInterviewPrepAPI.ConfigModels;
+using UBAInterviewPrepAPI.Domain.Models.ConfigModels;
 
 namespace UBAInterviewPrepAPI.Extensions
 {

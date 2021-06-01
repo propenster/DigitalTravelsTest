@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.deps.json
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.pdb
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\bin\Debug\netstandard2.0\UBAInterviewPrepAPI.Domain.pdb
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.csprojAssemblyReference.cache
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.AssemblyInfo.cs
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.csproj.CopyComplete
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI.DAL\obj\Debug\netstandard2.0\UBAInterviewPrepAPI.DAL.pdb

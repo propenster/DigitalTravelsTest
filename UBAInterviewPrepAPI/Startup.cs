@@ -12,12 +12,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using UBAInterviewPrepAPI.ConfigModels;
-using UBAInterviewPrepAPI.Data;
-using UBAInterviewPrepAPI.Data.Repositories;
-using UBAInterviewPrepAPI.Data.UOW;
+using UBAInterviewPrepAPI.DAL.Data.Context;
+using UBAInterviewPrepAPI.DAL.Data.Repositories;
+using UBAInterviewPrepAPI.DAL.Data.UOW;
+using UBAInterviewPrepAPI.Domain.Models.Auth;
+using UBAInterviewPrepAPI.Domain.Models.ConfigModels;
 using UBAInterviewPrepAPI.Extensions;
-using UBAInterviewPrepAPI.Models.Auth;
 using UBAInterviewPrepAPI.Services.DigitalTravels;
 
 namespace UBAInterviewPrepAPI
@@ -36,7 +36,9 @@ namespace UBAInterviewPrepAPI
         {
             var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
             services.AddDbContext<MyDataContext>(options => options.UseSqlite(Configuration.GetConnectionString("SQLiteDBConn")));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
+            services.Configure<AmadeusSettings>(Configuration.GetSection("AmadeusSettings"));
             services.AddIdentity<User, Role>(options => 
             {
                 options.Password.RequiredLength = 8;
@@ -46,12 +48,14 @@ namespace UBAInterviewPrepAPI
                 options.Lockout.MaxFailedAccessAttempts = 5;
             }).AddEntityFrameworkStores<MyDataContext>().AddDefaultTokenProviders();
             //this is from our extensions
+            // I also moved Authorization and JWT Authententication into an extension class - UBAInterviewPrepAPI.Extensions.AuthExtensions
             services.AddAuth(jwtSettings);
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IDigitalTravelService, DigitalTravelService>();
-            services.AddSwaggerGen(option => option.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Cars API with Identity", Description = "This is the Cars API with Identity included", Version = "v1"}));
-
+            services.AddScoped<ICarRepository, CarRepository>();
+            // Faith moved Swagger DI into a separate Extension class because it looks too gigantic here disfiguring startup.cs
+            // You can find the Extension class here - UBAInterviewPrepAPI.Extensions
+            services.ConfigureSwagger();
             services.AddHangfire(x => x.UseSQLiteStorage(Configuration.GetConnectionString("SQLiteDBConn")));
             services.AddHangfireServer();
             services.AddControllersWithViews();
@@ -79,9 +83,11 @@ namespace UBAInterviewPrepAPI
             app.UseSwaggerUI(options =>
             {
                 var prefix = string.IsNullOrWhiteSpace(options.RoutePrefix) ? "." : "..";
-                options.SwaggerEndpoint($"{prefix}/swagger/v1/swagger.json", "Cars API Swagger UI");
+                options.SwaggerEndpoint($"{prefix}/swagger/v1/swagger.json", "DigitalTravels API Swagger UI v1");
             });
-            app.UseAuth();
+            // I configured this by extending IApplicationBuilder inside of an extension class that I created 
+            //UBAInterviewPrepAPI.Extensions.AuthExtensions
+            app.UseAuth(); 
             app.UseHangfireDashboard();
             app.UseEndpoints(endpoints =>
             {

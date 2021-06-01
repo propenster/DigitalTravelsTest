@@ -10,9 +10,9 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using UBAInterviewPrepAPI.ConfigModels;
-using UBAInterviewPrepAPI.Models.Auth;
-using UBAInterviewPrepAPI.Models.IdentityAuthDtos;
+using UBAInterviewPrepAPI.Domain.Models.Auth;
+using UBAInterviewPrepAPI.Domain.Models.ConfigModels;
+using UBAInterviewPrepAPI.Domain.Models.IdentityAuthDtos;
 
 namespace UBAInterviewPrepAPI.Controllers
 {

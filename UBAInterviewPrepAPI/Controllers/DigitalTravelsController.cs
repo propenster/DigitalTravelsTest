@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UBAInterviewPrepAPI.Models.FlightSearchEngineAPIModels;
+using UBAInterviewPrepAPI.Domain.Models.FlightSearchEngineAPIModels;
 using UBAInterviewPrepAPI.Services.DigitalTravels;
 
 namespace UBAInterviewPrepAPI.Controllers
