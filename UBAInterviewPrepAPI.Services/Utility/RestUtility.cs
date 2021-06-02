@@ -16,7 +16,7 @@ namespace UBAInterviewPrepAPI.Services.Utility
         private static ILogger _logger;
         public RestUtility(IOptions<AmadeusSettings> amadeusSettings, ILogger<RestUtility> logger)
         {
-            _amadeusSettings = amadeusSettings.Value;
+            _amadeusSettings = amadeusSettings;
             _logger = logger;
         }       
 

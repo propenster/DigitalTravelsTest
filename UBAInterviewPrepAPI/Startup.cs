@@ -34,11 +34,25 @@ namespace UBAInterviewPrepAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
+            //var jwtSettings = Configuration.GetSection("Jwt").Get<JwtSettings>();
             services.AddDbContext<MyDataContext>(options => options.UseSqlite(Configuration.GetConnectionString("SQLiteDBConn")));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
-            services.Configure<AmadeusSettings>(Configuration.GetSection("AmadeusSettings"));
+            //configure AmadeusSettings using AppSecrets ...
+            var amadeusApiConfig = new AmadeusSettings({
+                BaseUrl = Configuration["AmadeusSettings:BaseUrl"],
+                GrantType = Configuration["AmadeusSettings:GrantType"],
+                ClientId = Configuration["AmadeusSettings:ClientId"],
+                ClientSecret = Configuration["AmadeusSettings:ClientSecret"]
+                });
+            var jwtSettings = new JwtSettings({
+                Issuer = Configuration["JwtSettings:Issuer"],
+                Secret = Configuration["JwtSettings:Secret"],
+                ExpirationInDays = Configuration["JwtSettings:ExpirationInDays"]
+                });
+            services.AddSingleton<AmadeusSettings>(amadeusApiConfig);
+            services.AddSingleton<JwtSettings>(jwtSettings);
+            //services.Configure<AmadeusSettings>(Configuration.GetSection("AmadeusSettings"));
             services.AddIdentity<User, Role>(options => 
             {
                 options.Password.RequiredLength = 8;
