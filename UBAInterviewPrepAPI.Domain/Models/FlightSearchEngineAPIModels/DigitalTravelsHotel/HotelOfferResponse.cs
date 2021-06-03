@@ -1,5 +1,9 @@
 // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
-    public class Address
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+
+public class Address
     {
         [JsonProperty("lines")]
         public List<string> Lines { get; set; }

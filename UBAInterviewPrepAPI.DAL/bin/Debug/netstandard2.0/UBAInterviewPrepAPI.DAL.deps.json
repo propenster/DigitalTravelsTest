@@ -18,6 +18,31 @@
           "UBAInterviewPrepAPI.DAL.dll": {}
         }
       },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.1": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.15",
+          "Microsoft.Extensions.Options": "3.1.15"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
@@ -250,6 +275,14 @@
           "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "4.700.20.56604"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
           }
         }
       },
@@ -589,6 +622,25 @@
           }
         }
       },
+      "System.Reflection.Emit/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/4.7.1": {
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
@@ -681,6 +733,7 @@
       },
       "UBAInterviewPrepAPI.Domain/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "3.1.15",
           "Newtonsoft.Json": "13.0.1"
@@ -696,6 +749,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xSWoVzOipuDU4PeZcUfaZQ+xqXU8QmGv5jrdlxt3MYm9xaOmrefqcfzGQ3SQ+D+8wfBa/ZwSuL0qKOVj080inA==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/8.1.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
@@ -829,6 +896,13 @@
       "sha512": "sha512-MalY0Y/uM/LjXtHfX/26l2VtN4LDNZ2OE3aumNOHDLsT4fNYy2hiHXI4CXCqKpNUNm7iJ2brrc4J89UdaL56FA==",
       "path": "microsoft.bcl.hashcode/1.1.1",
       "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/3.1.15": {
       "type": "package",
@@ -1053,6 +1127,20 @@
       "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
       "path": "system.numerics.vectors/4.4.0",
       "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.7.1": {
       "type": "package",

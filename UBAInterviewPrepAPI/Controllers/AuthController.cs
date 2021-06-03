@@ -28,12 +28,12 @@ namespace UBAInterviewPrepAPI.Controllers
         private readonly JwtSettings _jwtSettings;
 
 
-        public AuthController(UserManager<User> userManager, RoleManager<Role> roleManager, IMapper mapper, IOptionsSnapshot<JwtSettings> jwtSettings)
+        public AuthController(UserManager<User> userManager, RoleManager<Role> roleManager, IMapper mapper, JwtSettings jwtSettings)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _mapper = mapper;
-            _jwtSettings = jwtSettings.Value;
+            _jwtSettings = jwtSettings;
         }
 
         private string GenerateJwt(User user, IList<string> roles)

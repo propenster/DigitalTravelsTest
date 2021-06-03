@@ -146,6 +146,7 @@ C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Deb
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Hangfire.Core.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Hangfire.SQLite.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Hangfire.SqlServer.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\MailKit.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -180,7 +181,9 @@ C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Deb
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\MimeKit.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\RestSharp.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\Users\User\source\repos\DigitalTravelsAPISolution\UBAInterviewPrepAPI\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
