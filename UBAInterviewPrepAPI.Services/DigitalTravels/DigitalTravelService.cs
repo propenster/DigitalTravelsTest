@@ -37,7 +37,7 @@ namespace UBAInterviewPrepAPI.Services.DigitalTravels
             request.DestinationLocationCode, request.DepartureDate, request.Adults, request.ReturnDate, request.Children ?? 0, 
             request.Infants ?? 0, request.TravelClass.ToString(), request.IncludedAirlineCodes, request.ExcludedAirlineCodes, request.NonStop, request.CurrencyCode, request.MaxPrice ?? 5000, request.Max ?? 100);
 
-        public HotelSearchResponse SearchHotelOffers(string cityCode, double latitude, double longitude, string[] hotelIds, string checkInDate, int roomQuantity, int adults, int radius, string radiusUnit, string hotelName, string[] chains, string[] rateCodes, string[] amenities, int[] ratings, string priceRange, string currency, string paymentPolicy, string boardType, bool includeClosed, bool bestRateOnly, string view, string sort, int pageLimit, string pageOffset, string lang, string cacheControl)
+        public HotelSearchResponse SearchHotelOffers(string cityCode, double latitude, double longitude, string[] hotelIds, string checkInDate, string checkOutDate, int roomQuantity, int adults, int radius, string radiusUnit, string hotelName, string[] chains, string[] rateCodes, string[] amenities, int[] ratings, string priceRange, string currency, string paymentPolicy, string boardType, bool includeClosed, bool bestRateOnly, string view, string sort, int pageLimit, string pageOffset, string lang, string cacheControl)
         {
             return RestUtility.GetWithParameters<HotelSearchResponse>("/shopping/hotel-offers", new Dictionary<string, object>() {
                 {"cityCode", cityCode},
@@ -65,8 +65,8 @@ namespace UBAInterviewPrepAPI.Services.DigitalTravels
                         {"cityCode", cityCode},
                         {"radius", radius},
                         {"radiusUnit", radiusUnit},
-                        {"checkInDate", checkInDate ?? DateTime.Now.ToString("yyyy-MM-dd")},
-                        {"checkOutDate", checkOutDate ?? DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")}
+                        {"checkInDate", DateTime.Now.ToString("yyyy-MM-dd")},
+                        {"checkOutDate", DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")}
 
                         });
         }

@@ -15,7 +15,7 @@ namespace UBAInterviewPrepAPI.Services.DigitalTravels
 
 
         //hotels
-        HotelSearchResponse SearchHotelOffers(string cityCode, double latitude, double longitude, string[] hotelIds, string checkInDate, int roomQuantity, int adults, int radius, string radiusUnit, string hotelName, string[] chains, string[] rateCodes, string[] amenities, int[] ratings, string priceRange, string currency, string paymentPolicy, string boardType, bool includeClosed, bool bestRateOnly, string view, string sort, int pageLimit, string pageOffset, string lang, string cacheControl);
+        HotelSearchResponse SearchHotelOffers(string cityCode, double latitude, double longitude, string[] hotelIds, string checkInDate, string checkOutDate, int roomQuantity, int adults, int radius, string radiusUnit, string hotelName, string[] chains, string[] rateCodes, string[] amenities, int[] ratings, string priceRange, string currency, string paymentPolicy, string boardType, bool includeClosed, bool bestRateOnly, string view, string sort, int pageLimit, string pageOffset, string lang, string cacheControl);
 
         //search by longitude and latitude
         HotelSearchResponse SearchHotelOffers(double latitude, double longitude, string checkInDate, string checkOutDate, int radius, string radiusUnit);

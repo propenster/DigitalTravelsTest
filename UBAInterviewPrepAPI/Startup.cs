@@ -39,17 +39,26 @@ namespace UBAInterviewPrepAPI
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.Configure<JwtSettings>(Configuration.GetSection("Jwt"));
             //configure AmadeusSettings using AppSecrets ...
-            var amadeusApiConfig = new AmadeusSettings({
+            var amadeusApiConfig = new AmadeusSettings{
                 BaseUrl = Configuration["AmadeusSettings:BaseUrl"],
                 GrantType = Configuration["AmadeusSettings:GrantType"],
                 ClientId = Configuration["AmadeusSettings:ClientId"],
                 ClientSecret = Configuration["AmadeusSettings:ClientSecret"]
-                });
-            var jwtSettings = new JwtSettings({
+                };
+            var jwtSettings = new JwtSettings{
                 Issuer = Configuration["JwtSettings:Issuer"],
                 Secret = Configuration["JwtSettings:Secret"],
-                ExpirationInDays = Configuration["JwtSettings:ExpirationInDays"]
-                });
+                ExpirationInDays = Convert.ToInt32(Configuration["JwtSettings:ExpirationInDays"])
+                };
+            var mailSettings = new MailSettings
+            {
+                FromEmail = Configuration["MailSettings:FromEmail"],
+                DisplayName = Configuration["MailSettings:DisplayName"],
+                Password = Configuration["MailSettings:Password"],
+                Host = Configuration["MailSettings:Host"],
+                Port = Convert.ToInt32(Configuration["MailSettings:Port"])
+            };
+            services.AddSingleton<MailSettings>(mailSettings);
             services.AddSingleton<AmadeusSettings>(amadeusApiConfig);
             services.AddSingleton<JwtSettings>(jwtSettings);
             //services.Configure<AmadeusSettings>(Configuration.GetSection("AmadeusSettings"));
