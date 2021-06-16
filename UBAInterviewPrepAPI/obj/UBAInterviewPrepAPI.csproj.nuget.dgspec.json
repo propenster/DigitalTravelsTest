@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {}
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
+        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
         "projectName": "UBAInterviewPrepAPI.DAL",
-        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\obj\\",
+        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
+        "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,9 +26,10 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj"
               }
             }
           }
@@ -44,6 +42,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -70,24 +69,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj",
-        "projectName": "UBAInterviewPrepAPI.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\obj\\",
+        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj",
+        "projectName": "BookAnytimeAPI.Domain",
+        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,6 +95,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -110,6 +107,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -144,24 +142,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
+        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
         "projectName": "UBAInterviewPrepAPI.Services",
-        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\obj\\",
+        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,12 +168,13 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj"
               }
             }
           }
@@ -191,6 +187,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "MailKit": {
               "target": "Package",
@@ -221,24 +218,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
         "projectName": "UBAInterviewPrepAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\obj\\",
+        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+        "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,15 +244,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj"
+              "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+                "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj"
               }
             }
           }
@@ -271,6 +266,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -347,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

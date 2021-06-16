@@ -837,7 +837,7 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "UBAInterviewPrepAPI.Domain/1.0.0": {
+      "BookAnytimeAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -847,10 +847,10 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/UBAInterviewPrepAPI.Domain.dll": {}
+          "bin/placeholder/BookAnytimeAPI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UBAInterviewPrepAPI.Domain.dll": {}
+          "bin/placeholder/BookAnytimeAPI.Domain.dll": {}
         }
       }
     }
@@ -2419,38 +2419,34 @@
         "version.txt"
       ]
     },
-    "UBAInterviewPrepAPI.Domain/1.0.0": {
+    "BookAnytimeAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../UBAInterviewPrepAPI.Domain/UBAInterviewPrepAPI.Domain.csproj",
-      "msbuildProject": "../UBAInterviewPrepAPI.Domain/UBAInterviewPrepAPI.Domain.csproj"
+      "path": "../UBAInterviewPrepAPI.Domain/BookAnytimeAPI.Domain.csproj",
+      "msbuildProject": "../UBAInterviewPrepAPI.Domain/BookAnytimeAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BookAnytimeAPI.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 3.1.15",
-      "NETStandard.Library >= 2.0.3",
-      "UBAInterviewPrepAPI.Domain >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Blacksuperman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
-      "projectName": "UBAInterviewPrepAPI.DAL",
-      "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\obj\\",
+      "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\BookAnytimeAPI.DAL.csproj",
+      "projectName": "BookAnytimeAPI.DAL",
+      "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\BookAnytimeAPI.DAL.csproj",
+      "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2462,9 +2458,10 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
+            "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
+              "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj"
             }
           }
         }
@@ -2477,6 +2474,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -2503,7 +2501,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

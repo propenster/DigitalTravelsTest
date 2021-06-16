@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {}
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj": {}
   },
   "projects": {
     "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\BookAnytimeAPI.DAL.csproj": {
@@ -146,12 +146,12 @@
         }
       }
     },
-    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+    "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
-        "projectName": "UBAInterviewPrepAPI.Services",
-        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj",
+        "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj",
+        "projectName": "BookAnytimeAPI.Services",
+        "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj",
         "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\obj\\",
         "projectStyle": "PackageReference",
