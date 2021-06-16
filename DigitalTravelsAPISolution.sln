@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UBAInterviewPrepAPI", "UBAInterviewPrepAPI\UBAInterviewPrepAPI.csproj", "{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookAnytime", "UBAInterviewPrepAPI\BookAnytime.csproj", "{CBAE6400-8EF1-48B5-802C-F4EF95A6C2CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UBAInterviewPrepAPI.Domain", "UBAInterviewPrepAPI.Domain\UBAInterviewPrepAPI.Domain.csproj", "{417947A8-38CF-433D-A33E-D30F84B70FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookAnytimeAPI.Domain", "UBAInterviewPrepAPI.Domain\BookAnytimeAPI.Domain.csproj", "{417947A8-38CF-433D-A33E-D30F84B70FA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UBAInterviewPrepAPI.Services", "UBAInterviewPrepAPI.Services\UBAInterviewPrepAPI.Services.csproj", "{50065A86-0BC5-4D66-8D30-74BAEB632689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookAnytimeAPI.Services", "UBAInterviewPrepAPI.Services\BookAnytimeAPI.Services.csproj", "{50065A86-0BC5-4D66-8D30-74BAEB632689}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBAInterviewPrepAPI.DAL", "UBAInterviewPrepAPI.DAL\UBAInterviewPrepAPI.DAL.csproj", "{6B02AEB4-DB04-489E-948B-7DA46EB2F542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookAnytimeAPI.DAL", "UBAInterviewPrepAPI.DAL\BookAnytimeAPI.DAL.csproj", "{6B02AEB4-DB04-489E-948B-7DA46EB2F542}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
