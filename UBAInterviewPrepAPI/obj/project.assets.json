@@ -1971,22 +1971,22 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "BookAnytimeAPI.DAL/1.0.0": {
+      "UBAInterviewPrepAPI.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BookAnytimeAPI.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "3.1.15"
+          "Microsoft.EntityFrameworkCore": "3.1.15",
+          "UBAInterviewPrepAPI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/BookAnytimeAPI.DAL.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BookAnytimeAPI.DAL.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.DAL.dll": {}
         }
       },
-      "BookAnytimeAPI.Domain/1.0.0": {
+      "UBAInterviewPrepAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1996,27 +1996,27 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/BookAnytimeAPI.Domain.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BookAnytimeAPI.Domain.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.Domain.dll": {}
         }
       },
-      "BookAnytimeAPI.Services/1.0.0": {
+      "UBAInterviewPrepAPI.Services/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "BookAnytimeAPI.DAL": "1.0.0",
-          "BookAnytimeAPI.Domain": "1.0.0",
           "MailKit": "2.12.0",
           "RestSharp": "106.11.7",
-          "System.Configuration.ConfigurationManager": "5.0.0"
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "UBAInterviewPrepAPI.DAL": "1.0.0",
+          "UBAInterviewPrepAPI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/BookAnytimeAPI.Services.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BookAnytimeAPI.Services.dll": {}
+          "bin/placeholder/UBAInterviewPrepAPI.Services.dll": {}
         }
       }
     }
@@ -6614,28 +6614,25 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "BookAnytimeAPI.DAL/1.0.0": {
+    "UBAInterviewPrepAPI.DAL/1.0.0": {
       "type": "project",
-      "path": "../UBAInterviewPrepAPI.DAL/BookAnytimeAPI.DAL.csproj",
-      "msbuildProject": "../UBAInterviewPrepAPI.DAL/BookAnytimeAPI.DAL.csproj"
+      "path": "../UBAInterviewPrepAPI.DAL/UBAInterviewPrepAPI.DAL.csproj",
+      "msbuildProject": "../UBAInterviewPrepAPI.DAL/UBAInterviewPrepAPI.DAL.csproj"
     },
-    "BookAnytimeAPI.Domain/1.0.0": {
+    "UBAInterviewPrepAPI.Domain/1.0.0": {
       "type": "project",
-      "path": "../UBAInterviewPrepAPI.Domain/BookAnytimeAPI.Domain.csproj",
-      "msbuildProject": "../UBAInterviewPrepAPI.Domain/BookAnytimeAPI.Domain.csproj"
+      "path": "../UBAInterviewPrepAPI.Domain/UBAInterviewPrepAPI.Domain.csproj",
+      "msbuildProject": "../UBAInterviewPrepAPI.Domain/UBAInterviewPrepAPI.Domain.csproj"
     },
-    "BookAnytimeAPI.Services/1.0.0": {
+    "UBAInterviewPrepAPI.Services/1.0.0": {
       "type": "project",
-      "path": "../UBAInterviewPrepAPI.Services/BookAnytimeAPI.Services.csproj",
-      "msbuildProject": "../UBAInterviewPrepAPI.Services/BookAnytimeAPI.Services.csproj"
+      "path": "../UBAInterviewPrepAPI.Services/UBAInterviewPrepAPI.Services.csproj",
+      "msbuildProject": "../UBAInterviewPrepAPI.Services/UBAInterviewPrepAPI.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
-      "BookAnytimeAPI.DAL >= 1.0.0",
-      "BookAnytimeAPI.Domain >= 1.0.0",
-      "BookAnytimeAPI.Services >= 1.0.0",
       "Hangfire >= 1.7.22",
       "Hangfire.SQLite >= 1.4.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.15",
@@ -6647,23 +6644,30 @@
       "Microsoft.Extensions.Identity.Stores >= 3.1.15",
       "RestSharp >= 106.11.7",
       "Swashbuckle.AspNetCore >= 6.1.4",
-      "System.IdentityModel.Tokens.Jwt >= 6.11.1"
+      "System.IdentityModel.Tokens.Jwt >= 6.11.1",
+      "UBAInterviewPrepAPI.DAL >= 1.0.0",
+      "UBAInterviewPrepAPI.Domain >= 1.0.0",
+      "UBAInterviewPrepAPI.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Blacksuperman\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\BookAnytime.csproj",
-      "projectName": "BookAnytime",
-      "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\BookAnytime.csproj",
-      "packagesPath": "C:\\Users\\Blacksuperman\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI\\obj\\",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+      "projectName": "UBAInterviewPrepAPI",
+      "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\UBAInterviewPrepAPI.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Blacksuperman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6675,16 +6679,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\BookAnytimeAPI.DAL.csproj": {
-              "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.DAL\\BookAnytimeAPI.DAL.csproj"
+            "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.DAL\\UBAInterviewPrepAPI.DAL.csproj"
             },
-            "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj": {
-              "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Domain\\BookAnytimeAPI.Domain.csproj"
+            "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Domain\\UBAInterviewPrepAPI.Domain.csproj"
             },
-            "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj": {
-              "projectPath": "C:\\Projects\\digitalTravels\\DigitalTravelsTest\\UBAInterviewPrepAPI.Services\\BookAnytimeAPI.Services.csproj"
+            "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\DigitalTravelsAPISolution\\UBAInterviewPrepAPI.Services\\UBAInterviewPrepAPI.Services.csproj"
             }
           }
         }
@@ -6697,7 +6700,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6774,7 +6776,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
