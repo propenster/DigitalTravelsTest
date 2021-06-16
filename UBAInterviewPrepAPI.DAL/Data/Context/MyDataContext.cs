@@ -24,6 +24,7 @@ namespace UBAInterviewPrepAPI.DAL.Data.Context
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
             builder.Entity<User>().HasMany<Investment>().WithOne().HasForeignKey(prop => prop.UserId);
             builder.Entity<Portfolio>().HasMany<Investment>().WithOne().HasForeignKey(x => x.PortfolioId);
             //we also want an Administrator User to be able to create a Portfolio so 

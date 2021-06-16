@@ -79,7 +79,7 @@ namespace UBAInterviewPrepAPI
             // Faith moved Swagger DI into a separate Extension class because it looks too gigantic here disfiguring startup.cs
             // You can find the Extension class here - UBAInterviewPrepAPI.Extensions
             services.ConfigureSwagger();
-            services.AddHangfire(x => x.UseSQLiteStorage(Configuration.GetConnectionString("SQLiteDBConn")));
+            services.AddHangfire(x => x.UseSQLiteStorage(Configuration.GetConnectionString("HangfireConnection")));
             services.AddHangfireServer();
             services.AddControllersWithViews();
         }
